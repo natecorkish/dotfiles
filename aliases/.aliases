@@ -5,7 +5,7 @@ alias ncc='git add .; git commit -m "No comment commit"; git push'
 
 # Quick commit with message
 function gc() {
-    git add .; git commit -m "$0"; git push
+    git add .; git commit -m "$1"; git push
 
 }
 
