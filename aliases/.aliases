@@ -2,7 +2,12 @@
 alias gep='git commit --allow-empty -m "Empty push"'
 alias gl='lazygit'
 alias ncc='git add .; git commit -m "No comment commit"; git push'
-alias qc='git add .; git commit -m "$0"; git push'
+
+# Quick commit with message
+function gc() {
+    git add .; git commit -m "$0"; git push
+
+}
 
 # General aliases
 alias szsh='source $HOME/.zshrc'
