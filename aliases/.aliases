@@ -1,4 +1,4 @@
 # Git aliases
 alias gep='git commit --allow-empty -m "Empty push"'
-alias gl='gitlazy'
+alias gl='lazygit'
 alias ncc='git add .; git commit -m "No comment commit"; git push'
