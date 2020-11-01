@@ -1,0 +1,7 @@
+# What an annoying file
+.DS_STORE
+vim/.DS_STORE
+
+
+# Secrets
+ssh/.ssh
