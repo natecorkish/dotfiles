@@ -6,6 +6,7 @@ git submodule update
 
 # folders that should, or only need to be installed for a local user
 useronly=(
+    vim
     git
 )
 
