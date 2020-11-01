@@ -29,7 +29,7 @@ done
 
 # install only user space folders
 for app in ${useronly[@]}; do
-    if !"$(whoami)" = *"root"*; then
+    if [ "$EUID" -ne 0 ]; then
         stowit "${HOME}" $app
     fi
 done
