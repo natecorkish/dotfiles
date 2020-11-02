@@ -3,7 +3,11 @@ export DOT=$HOME/code/dotfiles
 
 # load aliases
 for file in $HOME/.aliases.d/*; do 
-    echo $file
+    source "$file"
+done
+
+# load plugins
+for file in $HOME/.zsh/.plugins/*; do
     source "$file"
 done
 
@@ -14,20 +18,7 @@ source $HOME/.zsh/.themes.d/oxide.theme
 autoload -Uz compinit
 compinit
 
-function d () {
-  if [[ -n $1 ]]; then
-    dirs "$@"
-  else
-    dirs -v | head -10
-  fi
-}
-compdef _dirs d
-
-# Directories
 setopt globdots
-setopt auto_pushd
-setopt pushd_ignore_dups
-setopt pushdminus
 setopt auto_menu      
 setopt complete_in_word
 setopt always_to_end
@@ -37,6 +28,5 @@ setopt prompt_subst
 
 unsetopt menu_complete
 unsetopt flowcontrol
-
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
