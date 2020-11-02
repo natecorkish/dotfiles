@@ -1,8 +1,11 @@
 export PATH="$PATH:$HOME/.composer/vendor/bin"
 export DOT=$HOME/code/dotfiles
 
-source $HOME/.aliases.d/.aliases
-source $HOME/.aliases.d/.git-functions
+# load aliases
+for file in $HOME/.aliases.d/*; do 
+    echo $file
+    source "$file"
+done
 
 # Install theme
 source $HOME/.zsh/.themes.d/oxide.theme
@@ -35,3 +38,5 @@ setopt prompt_subst
 unsetopt menu_complete
 unsetopt flowcontrol
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
