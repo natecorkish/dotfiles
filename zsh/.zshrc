@@ -4,6 +4,9 @@ export DOT=$HOME/code/dotfiles
 source $HOME/.aliases.d/.aliases
 source $HOME/.aliases.d/.git-functions
 
+# Install theme
+source $HOME/.zsh/.themes.d/oxide.theme
+
 # Directory completion
 autoload -Uz compinit
 compinit
