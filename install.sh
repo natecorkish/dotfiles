@@ -1,3 +1,6 @@
+# Install colorls
+gem install colorls
+
 # Install blackbox
 brew install blackbox
 
