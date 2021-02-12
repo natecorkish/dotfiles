@@ -1,0 +1,1 @@
+/Users/nate/code/dotfiles/ohmyzsh/.oh-my-zsh/themes/spaceship-prompt/spaceship.zsh-theme
