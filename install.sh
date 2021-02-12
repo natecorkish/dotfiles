@@ -1,3 +1,6 @@
+# Install hub
+brew install hub
+
 # Install colorls
 gem install colorls
 

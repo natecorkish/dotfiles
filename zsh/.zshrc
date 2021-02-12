@@ -68,8 +68,9 @@ plugins=(
     git
     k
     zsh-autosuggestions
-    zsh-completions
     history-substring-search
+    git-extra-commands
+    zsh-completions
     zsh-syntax-highlighting
 )
 
@@ -104,10 +105,10 @@ source $ZSH/oh-my-zsh.sh
 # Autojump plugin 
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
-# Setup
-autoload -U compinit && compinit
-
 # load aliases
 for file in $HOME/.aliases.d/*; do 
     source "$file"
 done
+
+# Setup
+autoload -U compinit && compinit
