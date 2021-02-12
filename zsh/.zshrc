@@ -106,3 +106,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Setup
 autoload -U compinit && compinit
+
+# load aliases
+for file in $HOME/.aliases.d/*; do 
+    source "$file"
+done

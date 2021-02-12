@@ -1,0 +1,2 @@
+alias l='colorls --group-directories-first --almost-all'
+2alias ll='colorls --group-directories-first --almost-all --long' # detailed list view
