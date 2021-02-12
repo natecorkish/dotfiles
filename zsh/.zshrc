@@ -71,7 +71,12 @@ plugins=(
     zsh-autosuggestions
     history-substring-search
     git-extra-commands
-    zsh-completions
+    laravel nvm npm 
+    heroku
+    gitignore
+    copyfile
+    copydir
+    composer
     zsh-syntax-highlighting
 )
 
