@@ -1,10 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
 	name = Nate Corkish
-	email = natecorkish@redacted.com
-# Please adapt and uncomment the following lines:
-#	name = Nate Corkish
-#	email = natecorkish@nates-mbp.home
+	email = 66919946+natecorkish@users.noreply.github.com
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
