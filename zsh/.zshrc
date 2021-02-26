@@ -118,3 +118,6 @@ done
 
 # Setup
 autoload -U compinit && compinit
+
+# Added by serverless binary installer
+export PATH="$HOME/.serverless/bin:$PATH"
