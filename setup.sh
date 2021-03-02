@@ -4,6 +4,10 @@
 git submodule init
 git submodule update
 
+
+# Move old .zshrc
+mv ~/.zshrc ~/.zshrc.old
+
 # folders that should, or only need to be installed for a local user
 useronly=(
     bin
@@ -11,7 +15,6 @@ useronly=(
     git
     aliases
     zsh
-    ohmyzsh
 )
 
 # run the stow command for the passed in directory ($2) in location $1

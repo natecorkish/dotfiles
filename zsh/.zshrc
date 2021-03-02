@@ -57,7 +57,7 @@ ZSH_THEME="spaceship"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM=~/code/dotfiles/ohmyzsh/.oh-my-zsh
+# ZSH_CUSTOM=~/code/dotfiles/ohmyzsh/.oh-my-zsh
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
