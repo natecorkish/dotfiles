@@ -21,3 +21,6 @@ brew install php
 
 # Install heroku
 brew install heroku
+
+# Install stow
+brew install stow
