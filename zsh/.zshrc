@@ -121,3 +121,8 @@ autoload -U compinit && compinit
 
 # Added by serverless binary installer
 export PATH="$HOME/.serverless/bin:$PATH"
+export PATH="/usr/local/opt/m4/bin:$PATH"
+
+
+# Fix percentage
+unsetopt prompt_cr prompt_sp

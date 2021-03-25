@@ -1,31 +1,19 @@
-# Install hub
+##########################
+# Brew
+# And its plugins
+##########################
+brew install node
+brew install composer
+brew install lazygit
 brew install hub
-
-# Install colorls
 gem install colorls
-
-# Install blackbox
 brew install blackbox
-
-# Install autojump
 brew install autojump
-
-# Install mac2imgur
 brew install mac2imgur
-
-# Install stripe
 brew install stripe
-
-# Install php
 brew install php
-
-# Install heroku
 brew install heroku
-
-# Install stow
 brew install stow
-
-
 
 ##########################
 # OHMYZSH
